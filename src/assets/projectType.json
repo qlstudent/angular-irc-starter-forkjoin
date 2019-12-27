@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Active",
+    "description": "Wow we are so active this is good make it green please"
+  },
+  {
+    "id": 2,
+    "name": "Dormant",
+    "description": "Well this project has been inactive for over six months so now we can't even"
+  },
+  {
+    "id": 3,
+    "name": "Defunct",
+    "description": "He is dead, jim!"
+  }
+]
