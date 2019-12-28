@@ -126,7 +126,8 @@ export class AppComponent implements OnInit {
   name = "World";
   lookupStates: Array<LookupStateModel>;
   constructor(
-    @Inject("LookupStateService") private lookupStateService: LookupStateService
+    @Inject("LookupStateService") private lookupStateService: LookupStateService,
+    @Inject("CommonService") private commonService: CommonService
   ) {}
   ngOnInit() {
     this.getState();
